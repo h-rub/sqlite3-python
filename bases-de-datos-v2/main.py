@@ -8,13 +8,6 @@ conn = sqlite3.connect(DB_NAME_PATH)
 
 c = conn.cursor()
 
-def crear_tabla():
-    c.execute(""" CREATE TABLE empleados (
-                            nombre TEXT,
-                            apellido TEXT,
-                            salario REAL)
-    """)
-
 def insertar_empleado(emp):
     with conn:
         c.execute("INSERT INTO empleados VALUES (:nombre_empleado, :apellido_empleado, :salario_empleado)",
