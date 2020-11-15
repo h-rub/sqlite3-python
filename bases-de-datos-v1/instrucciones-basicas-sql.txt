@@ -1,0 +1,9 @@
+CREATE (nos sirve para crear una tabla)
+
+INSERT (nos sirve para insertar datos en una tabla)
+
+SELECT (nos sirve para seleccionar datos de una tabla, por ejemplo un registro completo en una fila)
+
+UPDATE (nos sirve para actualizar los datos de una determinada tabla)
+
+DELETE (nos sirve para eliminar los registros)

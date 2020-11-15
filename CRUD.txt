@@ -1,0 +1,9 @@
+CREATE
+
+READ
+
+UPDATE
+
+DELETE
+
+C.R.U.D
